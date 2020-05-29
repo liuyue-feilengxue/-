@@ -1,0 +1,17 @@
+<!--pages/wxs/wxs.wxml-->
+<!-- <wxs module = "info">
+//js写法
+ function sum(num1,num2){
+   return num1 + num2
+ }
+ var message = "hello world";
+ module.exports = {
+   sum : sum,
+   message : message
+ }
+</wxs> -->
+
+<wxs src = "wxs.wxs" module = "info"/>
+
+<view>{{info.message}}</view>
+<view>{{info.sum(5,20)}}</view>

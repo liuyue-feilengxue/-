@@ -1,0 +1,3 @@
+<!--pages/image/image.wxml-->
+<button bindtap="handleChooseAlbum">选择图片</button>
+<image src="{{imagePath}}" class="imagesize"></image>

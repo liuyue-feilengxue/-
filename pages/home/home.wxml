@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<text class='title'>pages/home/home.wxml</text>
+<view>{{name}}</view>
+<button size="mini">+</button>
+<text selectable="{{true}}">\nhello</text>
+<button size="mini" type="warn">按钮</button>
+<view>---------------条件语句--------------</view>
+<button size="mini" bindtap="handleChangeIsShow">显示/隐藏</button>
+<view wx:if = "{{isShow}}">哈哈哈</view>
+<view>--------------for循环-----------------</view>
+<block wx:for = "{{students}}" wx:key = 'id'>
+  <view>{{item.name}}</view>
+</block>
+
+<template name="contentItem">
+  <button>{{btText}}</button>
+  <view>{{viewtext}}</view>
+</template>
+
+<template is="contentItem" data="{{btText: '按钮' , viewtext: '哈哈哈'}}"/>
+
+
+<!-- \n回车 -->
