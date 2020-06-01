@@ -2,3 +2,5 @@
 <!-- <view class = "title">{{title}}</view>
 <view class="content">我是内容</view> -->
 <button size="mini" bindtap="handleInc">+1</button>
+<slot name = 'slot1'/>
+<slot name = 'slot2'/>

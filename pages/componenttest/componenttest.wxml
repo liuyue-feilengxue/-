@@ -1,4 +1,6 @@
 <!--pages/componenttest/componenttest.wxml-->
 <!-- <my_cpn title = "哈哈哈"></my_cpn> -->
 <view>当前计数：{{count}}</view>
-<my_cpn bind:increment = "handleInc"/>
+<my_cpn bind:increment = "handleInc">
+  <button slot='slot1'>hello</button>
+</my_cpn>

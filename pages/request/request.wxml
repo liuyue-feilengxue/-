@@ -1,0 +1,5 @@
+<!--pages/request/request.wxml-->
+<button size="mini" bindtap="handleShowToast">showToast</button>
+<button size="mini" bindtap="handleShowModal">showModal</button>
+<button size="mini" bindtap="handleShowLoading">showLoading</button>
+<button size="mini" bindtap="handleShowAction">showAction</button>

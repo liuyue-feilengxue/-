@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/request/request",
     "pages/componenttest/componenttest",
     "pages/home/home",
     "pages/wxs/wxs",

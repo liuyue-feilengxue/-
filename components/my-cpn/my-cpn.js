@@ -25,5 +25,8 @@ Component({
     handleInc(){
       this.triggerEvent("increment",{},{})
     }
+  },
+  options : {
+    multipleSlots : true
   }
 })
