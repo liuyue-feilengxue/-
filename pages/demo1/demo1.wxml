@@ -1,0 +1,3 @@
+<!--pages/demo1/demo1.wxml-->
+<navigator url='/pages/demo2/demo2?name={{name}}&age=18'>跳到demo2页</navigator>
+<view>{{name}}</view>

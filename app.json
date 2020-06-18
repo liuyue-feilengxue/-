@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",
     "pages/request/request",
     "pages/componenttest/componenttest",
     "pages/home/home",
